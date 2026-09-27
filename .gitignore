@@ -1,0 +1,51 @@
+# Build Directories
+/build/
+build/
+bin/
+out/
+.vs/
+.vscode/
+.idea/
+*.user
+
+# CMake Build & Cache Artifacts
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.ninja
+.ninja_*
+CompileCommands.json
+
+# C++ Compiled Binaries and Objects
+*.o
+*.obj
+*.exe
+*.dll
+*.dylib
+*.so
+*.a
+*.lib
+*.pdb
+
+# Qt Generated Code
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+*.qrc.depends
+
+# Log and Temporary Files
+*.log
+*.tmp
+*.bak
+build_err.txt
+build_log.txt
+build_out.txt
+cmake_log.txt
+ninja_err.txt
+log.txt
+
+# OS Specific
+Thumbs.db
+Desktop.ini
+.DS_Store
